@@ -1,0 +1,26 @@
+.site-output-box {
+    border-radius: 5%;
+    max-width: 70%;
+    min-width: 60%;
+    max-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.site-output-box-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.site-output-box.hide {
+    display: none;
+}
+
+#robot-image {
+    max-width: 100%;
+    max-height: 100%;
+}

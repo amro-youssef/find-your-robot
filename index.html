@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Generator</title>
+    <link rel="stylesheet" href="css/site.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- name, age, type of image you want -->
+     <header class="site-header">
+        <h1>Find Your Robot</h1>
+     </header>
+
+     <nav class="site-nav">
+
+     </nav>
+
+     <main class="site-main">
+        <form method="POST" action="" class="site-form site-card">
+            <div class="site-form-element">
+                <label for="name">Your name</label>
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+
+            <div class="site-form-element">
+                <label for="age">Your age</label>
+                <input type="text" name="age" placeholder="Enter your age">
+            </div>
+
+            <div class="site-form-element">
+                <label for="robot-type">Choose your robot type</label>
+                <select name="robot-type" class="site-main-select">
+                    <option value="robot">Robot</option>
+                    <option value="monster">Monster</option>
+                    <option value="suave">Suave</option>
+                    <option value="kitten">Kitten</option>
+                </select>
+            </div>
+
+            <div class="site-form-element">
+                <button type="button" class="site-form-button">Submit</button>
+            </div>
+
+        </form>
+
+        <div class="site-output-box site-card hide">
+            <h3 class="site-output-box-title">Name</h3>
+            <img id="robot-image"/>
+            
+        </div>
+
+     </main>
+
+     <footer class="site-footer">
+        <p>&copy; 2026 Robot Finder, all rights (not) reserved</p>
+            <ul class="site-footer-nav">
+                <li class="site-footer-nav-item">
+                    <a class="site-footer-nav-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="site-footer-nav-item">
+                    <a class="site-footer-nav-link" href="#">Cookies</a>
+                </li>
+            </ul>
+     </footer>
+
+    
+</body>
+</html>

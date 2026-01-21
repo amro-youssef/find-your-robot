@@ -1,0 +1,24 @@
+.site-header {
+    /* background-image: "./images/robot-img.jpg"; */
+    /* background: url(/images/robot-img.jpg); */
+    background-image: url(/images/robot-img.jpg);
+    background-size: cover;       /* Fills header without distortion */
+    background-position: center;  /* Keeps image centered */
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--colour-header-text);
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif, cursive;
+    font-size: 20px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+
+
+    min-height: 100px;
+    padding: 1.5rem;
+    margin-bottom: 20px;
+}

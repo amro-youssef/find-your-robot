@@ -1,0 +1,6 @@
+.site-main {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex: 1;
+}

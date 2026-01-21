@@ -1,0 +1,35 @@
+.site-form {
+    max-width: 70%;
+    min-width: 30%;
+    max-height: 50%;
+}
+
+.site-form-element {
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-form-input-error {
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+
+.site-form-button {
+    margin: 20px;
+    padding: 10px 20px;
+    background: var(--colour-button);
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: none;
+    cursor: pointer;
+    /* gap: 10px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.site-form-button:hover {
+    background: var(--colour-button-hover);
+}
