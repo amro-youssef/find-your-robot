@@ -35,8 +35,9 @@ function getImageUrl(name, age, robotType) {
     let apiUrl = "https://robohash.org/";
     apiUrl = apiUrl + name + age;
 
+    apiUrl += "?size=500x500";
     if (robotType !== "robot") {
-        apiUrl += "?set="
+        apiUrl += "&set="
         if (robotType === "monster") {
             apiUrl += "set2"
         } else if (robotType === "suave") {
